@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b99e5c68fe577bbd0f4b586df678e6d",
+    "content-hash": "738835dee497bd4bd0e2f9e0c13cb0f7",
     "packages": [
         {
             "name": "arcanedev/php-html",
@@ -268,16 +268,16 @@
         },
         {
             "name": "barryvdh/laravel-debugbar",
-            "version": "dev-master",
+            "version": "v3.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-debugbar.git",
-                "reference": "9853edfc6c980d7af7264f1acf6146b292636470"
+                "reference": "3c2d678269ba60e178bcd93e36f6a91c36b727f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/9853edfc6c980d7af7264f1acf6146b292636470",
-                "reference": "9853edfc6c980d7af7264f1acf6146b292636470",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/3c2d678269ba60e178bcd93e36f6a91c36b727f1",
+                "reference": "3c2d678269ba60e178bcd93e36f6a91c36b727f1",
                 "shasum": ""
             },
             "require": {
@@ -295,7 +295,6 @@
                 "phpunit/phpunit": "^8.5|^9.0",
                 "squizlabs/php_codesniffer": "^3.5"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -306,7 +305,7 @@
                         "Barryvdh\\Debugbar\\ServiceProvider"
                     ],
                     "aliases": {
-                        "Debugbar": "Barryvdh\\Debugbar\\Facades\\Debugbar"
+                        "Debugbar": "Barryvdh\\Debugbar\\Facade"
                     }
                 }
             },
@@ -338,7 +337,7 @@
             ],
             "support": {
                 "issues": "https://github.com/barryvdh/laravel-debugbar/issues",
-                "source": "https://github.com/barryvdh/laravel-debugbar/tree/master"
+                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.6.4"
             },
             "funding": [
                 {
@@ -350,7 +349,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-11-12T08:13:49+00:00"
+            "time": "2021-10-21T10:57:31+00:00"
         },
         {
             "name": "barryvdh/laravel-dompdf",
@@ -16100,7 +16099,6 @@
         "knplabs/knp-menu": 20,
         "jenssegers/agent": 20,
         "twig/twig": 20,
-        "barryvdh/laravel-debugbar": 20,
         "barryvdh/laravel-dompdf": 20,
         "graham-campbell/markdown": 20,
         "laravelcollective/html": 20,
