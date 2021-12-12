@@ -14,6 +14,7 @@ api_expose('pixum_img');
 api_expose('thumbnail_img');
 
 api_expose_admin('get_media');
+api_expose_admin('delete_media');
 
 
 
