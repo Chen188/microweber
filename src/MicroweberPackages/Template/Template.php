@@ -398,7 +398,7 @@ class Template
 
 
             setTimeout(function () {
-                    $.get( "' . route('csrf', [], false) . '", function( data ) {
+                    $.get( "' . route('csrf') . '", function( data ) {
                     $(\'meta[name="csrf-token"]\').attr(\'content\',data.token)
                     if(typeof(mw.cookie) != \'undefined\' ){
 
